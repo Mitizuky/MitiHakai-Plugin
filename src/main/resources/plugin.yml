@@ -1,0 +1,12 @@
+name: MitiHakai
+version: '1.0'
+main: br.com.mitizuky.mitiHakai.MitiHakai
+commands:
+  hakai:
+    description: "Usa o poder da destruição para destruir um outro ser."
+    permission: miti.hakai
+
+permissions:
+  miti.hakai:
+    description: "Permite usar o comando /hakai"
+    default: op
